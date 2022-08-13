@@ -103,6 +103,8 @@ body {
 }
 .principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina {
@@ -117,6 +119,9 @@ body {
     background-color: #2C343A;
 }
 
+.cartao--destaque{
+    margin-bottom: 16px;
+}
 .cartao__conteudo {
     padding: 16px;
     display: grid;
@@ -165,6 +170,7 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before {
